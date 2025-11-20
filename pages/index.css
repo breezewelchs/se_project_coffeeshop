@@ -9,18 +9,4 @@
 @import url(../blocks/nav.css);
 @import url(../blocks/recipes.css);
 @import url(../blocks/reservation.css);
-
-@keyframes pulsate {
-  0% {
-    opacity: 0;
-    transform: scale(1);
-  }
-  60% {
-    opacity: 0.6;
-    transform: scale(1.2);
-  }
-  100% {
-    opacity: 0;
-    transform: scale(1.5);
-  }
-}
+@import url(../blocks/keyframes.css);

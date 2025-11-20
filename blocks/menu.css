@@ -33,9 +33,3 @@
   column-gap: 100px;
   row-gap: 100px;
 }
-
-.menu__cards .card:last-child {
-  grid-column: 1 / span 2;
-  width: 540px;
-  margin: 0 auto;
-}
