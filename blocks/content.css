@@ -1,0 +1,6 @@
+.content-row {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-left: 80px;
+}
