@@ -6,8 +6,6 @@
 
 .footer__content {
   width: 100%;
-  padding-left: 80px;
-  padding-right: 139px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -17,11 +15,10 @@
 .footer__logo {
   width: 105px;
   height: 39px;
-  margin-bottom: 108px;
 }
 
 .footer__copyright {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   margin: 108px 0 0;
@@ -34,7 +31,7 @@
 }
 
 .footer__social-heading {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -64,7 +61,7 @@
 .footer__social-link {
   color: #fff;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   transition: 0.3s ease;

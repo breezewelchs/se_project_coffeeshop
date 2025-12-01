@@ -2,8 +2,11 @@
   background-color: #0a2850;
   color: #fff;
   position: relative;
-  padding: 80px 0 173px;
+  padding: 100px 80px 173px;
   overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -13,19 +16,14 @@
   line-height: 52px;
   max-width: 251px;
   margin: 0;
-  position: relative;
   z-index: 2;
 }
 
 .about__content {
   max-width: 660px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: 139px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: relative;
   z-index: 2;
   margin-top: 19px;
 }
@@ -49,16 +47,7 @@
 }
 
 .about__circle_animation_blurred {
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  background: #1878dc;
-  position: absolute;
-  top: -129px;
-  left: -129px;
-  opacity: 0;
   animation: pulsate 1.3s ease-in-out infinite;
-  z-index: 0;
 }
 
 @keyframes pulsate {
